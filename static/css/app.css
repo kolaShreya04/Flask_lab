@@ -1,0 +1,9 @@
+h1{
+    color: red;
+    background: rebeccapurple;
+    margin: 2em;
+    border-style: dashed;
+    border-radius: 1em;
+    border-color: beige;
+    padding: 1em;
+}

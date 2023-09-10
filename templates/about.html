@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/app.css')}}">
+    <title>about</title>
+  </head>
+  <body>
+    {% extends "template.html" %}
+    {% block content %}
+        <center><h1>About {{ aboutName }}</h1></center>
+        <center><p>I am writing about myself. </p></center>
+        <p>My Name is Shreya kola. I was born and raised in India, moved to United States in 2016. I really like it here but, i also miss my family back home.  </p>
+        <p>I am an Undergrad student who is seeking a position in a company where I can utilize my communication, experience, and interpersonal skills to build relationships with clients and gaining more learning experience in different fields. 
+          Education.</p>
+        <p>Columbus State University — Bachelor of Computer Science in Enterprise Computing, Columbus, GA   
+          GPA: 3.4 / 4.00 
+          Relevant Coursework: Information Security, Computer networks, Assembly 
+          language, Data structures, Database systems </p>
+        <center><p>Skills & Abilities: </p></center>
+        <p>Technical: Java, Python, Microsoft Office Suite, Excel, Windows, Assembly language </p>
+        <p>Soft skills: Communication, Analytical, Problem-solving, Leadership </p>  
+        <center><p>Projects: </p></center>
+        <p>Video game project (Java): </p> 
+        <p>● Project involves concepts of inheritance, polymorphic methods, and storing data in an Array List. </p>   
+        <p>● The output we aimed for was for developing a character creation system including various humans, enemies, boss characters, and a point system with input options in array lists. We Solve it! Project(Java)</p> 
+        <p>● Project involves concepts of Array List. </p>  
+        <p>● The display of assignments and the amount of time allotted for them is the desired outcome.</p> 
+        <center><p>Experience: </p> </center> 
+        <p>Feb 10, 2023 - Sep 12, 2023 — Ankerpak 
+          Office Manager/Support Specialist/Web Developer </p>  
+          <p>● Manage and oversee day-to-day activities of operations, including planning and coordinating with customers. Proficient in Word, Excel, Sage, and 3PL Central </p>
+          <p>● Helped revamp their webpage </p>
+          <p>● Have helped train an employee on this job </p>
+          <p>● In charge of scheduling inbound and outbound shipments as well as creating and obtaining accurate shipping documentation. </p>
+          <p>● Maintain accounting operations for multiple clients, including accounts payable and receivable, ensuring the integrity and accuracy of internal controls.</p>
+        <center><p>Activities: </p> </center>  
+          <p>ILEAD: </p>  
+          <p>● Attend monthly meetings and participate in activities. </p>
+          <p>● Volunteered under Columbus state university approved organizations. </p> 
+          <p>● Serving as a team leader for a community service project </p>  
+          <p>Columbus Public Library: </p>  
+          <p>● Shelving books and maintaining the library's collection </p>
+          <p>● Helping with library events such as book clubs or author visits </p>
+          <p>● Assisting patrons with finding books, using the computer, and accessing library services </p>
+          <p>Winterfest: </p>
+          <p>● Welcoming attendees, checking them in, directing them to the event locations and activities</p>
+          <p>● Serving food and drinks to guest and cleaning up after the event </p>
+          <p>● Assisting with the overall coordination of the event, resolving issues, providing support to other volunteers and staff</p> 
+        <center><p>Thank you!</p></center>        
+    {% endblock %}
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  </body>
+</html>
